@@ -1,0 +1,68 @@
+.logo {
+  width: 50px;
+  height: 30px;
+}
+.social-media {
+  display: none;
+}
+
+#navbar ul {
+  padding: 0 0.75rem;
+}
+#navbar ul li a {
+  padding: 0.7rem;
+  font-size: small;
+}
+.articles-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.5rem;
+  overflow: hidden;
+}
+.articles-content .card img {
+  width: 100%;
+  height: auto;
+}
+#articles .articles-content > *:first-child,
+#articles .articles-content > *:last-child {
+  grid-template-columns: 1fr;
+  grid-column: 1;
+}
+#articles .articles-content small {
+  margin-top: 0.4rem;
+}
+#about .about-content,
+#article-pg .article-content {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#about .about-content h1,
+#article-pg .article-content h1 {
+  font-size: 2rem;
+}
+#about .about-content > *:last-child img {
+  width: 350px;
+  margin: auto;
+}
+#article-pg .article-content .card img {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* -------------------- */
+#footer .container {
+  margin: 0 0;
+  padding: 0.3rem 0.5rem;
+}
+#footer .container > *:last-child {
+  background: none;
+}
+#footer .container > *:nth-child(2),
+#footer .container > *:first-child {
+  display: none;
+}
+#footer .container p {
+  font-size: 0.8rem;
+}
